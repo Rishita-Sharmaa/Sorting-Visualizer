@@ -1,0 +1,150 @@
+/* Reset styles */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-size: large;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+/* Navigation styles */
+nav {
+  background-color: #3b3a3a;
+  color: white;
+  display: grid;
+  grid-template-columns: 30% 60%;
+  column-gap: 10%;
+  padding: 0% 5%;
+}
+
+/* Array inputs section */
+nav .array-inputs {
+  display: grid;
+  grid-template-columns: 60% 40%;
+  place-content: center;
+  padding: 5% 0%;
+}
+
+/* Array size input */
+nav .array-inputs #a_size {
+  padding: 5% 0%;
+}
+
+/* Algorithm's speed input */
+nav .array-inputs #a_speed {
+  padding: 2% 0%; /* Slightly less padding */
+}
+
+/* Stylish "Generate New Array" button */
+nav .array-inputs #a_generate {
+  background-color: #007BFF; /* Eye-catching blue background */
+  border: none;
+  outline: none;
+  color: white;
+  padding: 2% 5%; /* Button size */
+  font-size: large;
+  border-radius: 10px; /* Rounded corners */
+  cursor: pointer;
+  transition: background-color 0.3s ease; /* Smooth background color transition */
+}
+
+/* Position "Generate New Array" button below algorithm's speed */
+nav .array-inputs #a_generate {
+  grid-column: span 1; /* Span 1 columns for wider placement */
+}
+
+/* Hover effect on "Generate New Array" button */
+nav .array-inputs #a_generate:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+}
+
+/* Header right section */
+nav .header_right {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Navigation heading */
+nav .header_right .nav-heading {
+  display: inline-block;
+  font-size: xxx-large;
+  padding: 3% 0%;
+}
+
+/* Sorting algorithm buttons */
+nav .header_right .algos {
+  display: grid;
+  grid-template-columns: repeat(6, 16.66667%);
+  place-content: center;
+  padding: 2% 0%;
+}
+
+/* Stylish sorting algorithm buttons */
+nav .header_right .algos button {
+  background-color: transparent;
+  border: none;
+  color: white;
+  outline: none;
+  padding: 5% 0%;
+  font-size: x-large;
+  margin: 5px;
+  transition: background-color 0.3s ease; /* Smooth transition effect */
+}
+
+/* Hover effect on sorting algorithm buttons */
+nav .header_right .algos button:hover {
+  background-color: #007BFF; /* Eye-catching blue on hover */
+  cursor: pointer;
+}
+
+/* Section styles */
+section {
+  display: grid;
+  grid-template-columns: 20% 60% 20%;
+}
+
+/* Complexity containers section */
+section .Complexity_Containers {
+  margin-top: 20%;
+}
+
+/* Pair definitions */
+section .Complexity_Containers .Pair_Definitions {
+  margin-top: 20%;
+}
+
+/* Inline display for pair definitions */
+section .Complexity_Containers .Pair_Definitions p {
+  display: inline;
+}
+
+/* Subheading styles */
+section .Complexity_Containers .Pair_Definitions p.Sub_Heading {
+  font-size: medium;
+  text-transform: none;
+}
+
+/* Info container 1 and Info container 2 */
+section #Info_Cont1,
+section #Info_Cont2 {
+  padding: 20% 10%;
+}
+
+/* Underline effect on info container headings */
+section #Info_Cont1 h3,
+section #Info_Cont2 h3 {
+  text-decoration: underline;
+}
+
+/* Array container section */
+section #array_container {
+  display: flex;
+  width: 100%;
+  height: 70vh;
+}
+
+/* Hide class */
+.hide {
+  display: none;
+}
